@@ -2,7 +2,7 @@ class Storage {
   #items;
 
   constructor(initialItems) {
-    this.#items = initialItems;
+    this.#items = [...initialItems];
   }
 
   getItems() {
